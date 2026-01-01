@@ -1,3 +1,4 @@
+'''
 import random
 import string
 
@@ -14,12 +15,13 @@ def generatePassword(length=12):
 print(generatePassword())
 password = generatePassword(10)
 print(password)
+'''
 #####################
 
 import secrets
 import string
 
-def generate_secure_Password(length=16, use_digits = True, use_symbols = True):
+def generate_secure_Password(length=16, use_digits = False, use_symbols = False):
     character = string.ascii_letters
     if use_digits:
         character += string.digits
@@ -34,4 +36,5 @@ def generate_secure_Password(length=16, use_digits = True, use_symbols = True):
         
     return StrongPassword
 
-print(generate_secure_Password(length=12))
+print(generate_secure_Password(length=6))
+
