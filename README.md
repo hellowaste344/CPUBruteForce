@@ -1,2 +1,2 @@
 # CPUBruteForce
-let's decyrypt passwords and measure how much time it took.
+let's crack the password and measure how much time it took.
